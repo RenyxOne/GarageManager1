@@ -9,4 +9,12 @@ public class GarageManager {
     public void buttonPressedApply(){
         command.action();
     }
+
+    public int getState(){
+        return command.getState();
+    }
+
+    public int getType(){
+        return command.getType();
+    }
 }

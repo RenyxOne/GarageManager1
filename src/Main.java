@@ -1,9 +1,10 @@
+import controller.Controller;
 import model.*;
 
 public class Main {
 
     public static void main(String[] args){
-        GarageManager gm = new GarageManager();
+        /*GarageManager gm = new GarageManager();
         GarageLight light = new GarageLight();
         GarageDoor door = new GarageDoor();
 
@@ -30,6 +31,8 @@ public class Main {
         //door down
         gm.setCommand(doorDown);
         gm.buttonPressedApply();
+        */
 
+        new Controller();
     }
 }
